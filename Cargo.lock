@@ -341,7 +341,7 @@ dependencies = [
 
 [[package]]
 name = "bevy-3d"
-version = "0.1.1"
+version = "0.2.1"
 dependencies = [
  "bevy",
 ]
