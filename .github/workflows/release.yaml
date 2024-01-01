@@ -7,7 +7,7 @@ on:
 
 env:
   # update with the name of the main binary
-  binary: Bevy-3d
+  binary: bevy-3d
   add_binaries_to_github_release: true
   itch_target: citroengames/3d-test-bevy
 
