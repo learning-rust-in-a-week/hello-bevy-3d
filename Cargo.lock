@@ -344,7 +344,7 @@ name = "bevy-3d"
 version = "0.2.3"
 dependencies = [
  "bevy",
- "bevy_fpc",
+ "bevy_fps_controller",
  "bevy_rapier3d",
 ]
 
@@ -564,38 +564,13 @@ dependencies = [
 ]
 
 [[package]]
-name = "bevy_fpc"
-version = "0.1.2"
+name = "bevy_fps_controller"
+version = "0.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2e264c7e655246887635193a2e7500b2a28f0c57317242bdb650cf2699efed2f"
-dependencies = [
- "bevy",
- "bevy_fpc_core",
- "bevy_fpc_sprint",
- "bevy_rapier3d",
- "log",
-]
-
-[[package]]
-name = "bevy_fpc_core"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "58cd6350e54b959653b644c90f745f9ce882b9b6694db95bc023cbc206ba6e7b"
+checksum = "dd516a217eecb1e699e43aa45c8a3ba1280e677edf74828c3891b97a0d04734d"
 dependencies = [
  "bevy",
  "bevy_rapier3d",
-]
-
-[[package]]
-name = "bevy_fpc_sprint"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3504e3bc745a8a38eff7e79cbd96fd09d880f01976bbaf4003875ab3766fc831"
-dependencies = [
- "bevy",
- "bevy_fpc_core",
- "bevy_rapier3d",
- "log",
 ]
 
 [[package]]
